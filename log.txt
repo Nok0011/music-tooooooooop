@@ -1,0 +1,1418 @@
+[08-Oct-26 18:39:19 - INFO] - anony: Cache directories updated.
+[08-Oct-26 18:39:20 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 18:39:22 - INFO] - anony: Database connection successful. (1.31s)
+[08-Oct-26 18:39:22 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 18:39:23 - INFO] - anony: تم تحميل 4 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 18:39:23 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 18:39:23 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 18:39:27 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 18:39:27 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 18:39:28 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 18:39:28 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 18:39:28 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 18:39:29 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 18:39:29 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 18:39:29 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 18:39:29 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 18:39:29 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 18:39:29 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 18:39:29 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 18:39:34 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 18:39:34 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 18:39:43 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 427, in user_id_rich
+    chat_id = message.chat.id
+              ^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'chat'
+[08-Oct-26 18:44:05 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 427, in user_id_rich
+    chat_id = message.chat.id
+              ^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'chat'
+[08-Oct-26 18:44:08 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 427, in user_id_rich
+    chat_id = message.chat.id
+              ^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'chat'
+[08-Oct-26 18:44:15 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 467, in owner_cmd
+    btn = InlineKeyboardMarkup([[InlineKeyboardButton(owner.first_name, copy_text=str(owner.id))]])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+[08-Oct-26 18:44:17 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 145, in dev_cmd
+    text = f"""• الاسم: {user.mention}
+                         ^^^^^^^^^^^^
+AttributeError: 'Chat' object has no attribute 'mention'
+[08-Oct-26 18:45:07 - INFO] - anony: Cache directories updated.
+[08-Oct-26 18:45:08 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 18:45:10 - INFO] - anony: Database connection successful. (1.52s)
+[08-Oct-26 18:45:11 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 18:45:11 - INFO] - anony: تم تحميل 4 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 18:45:11 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 18:45:11 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 18:45:11 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 18:45:12 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 18:45:13 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 18:45:13 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 18:45:13 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 18:45:13 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 18:45:13 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 18:45:13 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 18:45:13 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 18:45:13 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 18:45:13 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 18:45:13 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 18:45:19 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 18:45:19 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 18:45:35 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 145, in dev_cmd
+    text = f"""• الاسم: {user.mention}
+                         ^^^^^^^^^^^^
+AttributeError: 'Chat' object has no attribute 'mention'
+[08-Oct-26 18:45:46 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 427, in user_id_rich
+    chat_id = message.chat.id
+              ^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'chat'
+[08-Oct-26 18:49:36 - INFO] - anony: Stopping...
+[08-Oct-26 18:49:36 - INFO] - anony: Bot stopped.
+[08-Oct-26 18:49:36 - INFO] - anony: All assistants stopped.
+[08-Oct-26 18:49:36 - INFO] - anony: Database connection closed.
+[08-Oct-26 18:49:36 - INFO] - anony: Stopped.
+
+[08-Oct-26 18:49:36 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[08-Oct-26 18:49:36 - INFO] - anony: All assistants stopped.
+[08-Oct-26 18:49:36 - INFO] - anony: Stop...
+[08-Oct-26 18:49:43 - INFO] - anony: Cache directories updated.
+[08-Oct-26 18:49:43 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 18:49:45 - INFO] - anony: Database connection successful. (1.30s)
+[08-Oct-26 18:49:46 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 18:49:46 - INFO] - anony: تم تحميل 4 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 18:49:46 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 18:49:46 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 18:49:46 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 18:49:47 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 18:49:48 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 18:49:48 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 18:49:48 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 18:49:48 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 18:49:48 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 18:49:48 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 18:49:49 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 18:49:49 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 18:49:49 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 18:49:49 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 18:49:49 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 18:49:49 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 18:59:40 - INFO] - anony: Stopping...
+[08-Oct-26 18:59:41 - INFO] - anony: Bot stopped.
+[08-Oct-26 18:59:41 - INFO] - anony: All assistants stopped.
+[08-Oct-26 18:59:41 - INFO] - anony: Database connection closed.
+[08-Oct-26 18:59:41 - INFO] - anony: Stopped.
+
+[08-Oct-26 18:59:41 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[08-Oct-26 18:59:41 - INFO] - anony: All assistants stopped.
+[08-Oct-26 18:59:41 - INFO] - anony: Stop...
+[08-Oct-26 18:59:54 - INFO] - anony: Cache directories updated.
+[08-Oct-26 18:59:54 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 18:59:56 - INFO] - anony: Database connection successful. (1.41s)
+[08-Oct-26 18:59:57 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 18:59:57 - INFO] - anony: تم تحميل 4 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 18:59:57 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 18:59:57 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 18:59:58 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 18:59:58 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 18:59:59 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 18:59:59 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 18:59:59 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 18:59:59 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 18:59:59 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 18:59:59 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 18:59:59 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 18:59:59 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 18:59:59 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 19:00:00 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 19:00:00 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 19:00:00 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 19:00:04 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 258, in user_id
+    if group_locks(chat_id, False):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+[08-Oct-26 19:00:07 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 258, in user_id
+    if group_locks(chat_id, False):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+[08-Oct-26 19:00:12 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/Other.py", line 258, in user_id
+    if group_locks(chat_id, False):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+[08-Oct-26 19:02:53 - INFO] - anony: Stopping...
+[08-Oct-26 19:02:53 - INFO] - anony: Bot stopped.
+[08-Oct-26 19:02:53 - INFO] - anony: All assistants stopped.
+[08-Oct-26 19:02:53 - INFO] - anony: Database connection closed.
+[08-Oct-26 19:02:53 - INFO] - anony: Stopped.
+
+[08-Oct-26 19:02:53 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[08-Oct-26 19:02:53 - INFO] - anony: All assistants stopped.
+[08-Oct-26 19:02:53 - INFO] - anony: Stop...
+[08-Oct-26 19:02:57 - INFO] - anony: Cache directories updated.
+[08-Oct-26 19:02:57 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 19:02:59 - INFO] - anony: Database connection successful. (1.32s)
+[08-Oct-26 19:03:00 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 19:03:00 - INFO] - anony: تم تحميل 4 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 19:03:00 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 19:03:00 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 19:03:01 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 19:03:01 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 19:03:02 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 19:03:02 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 19:03:03 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 19:03:03 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 19:03:03 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 19:03:03 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 19:03:03 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 19:03:03 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 19:03:03 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 19:03:04 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 19:03:04 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 19:03:04 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 19:04:45 - INFO] - anony: Cache directories updated.
+[08-Oct-26 19:04:45 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 19:04:47 - INFO] - anony: Database connection successful. (1.40s)
+[08-Oct-26 19:04:48 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 19:04:48 - INFO] - anony: تم تحميل 4 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 19:04:48 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 19:04:48 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 19:04:49 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 19:04:49 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 19:04:50 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 19:04:50 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 19:04:50 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 19:04:50 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 19:04:50 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 19:04:50 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 19:04:50 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 19:04:51 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 19:04:51 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 19:04:51 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 19:04:51 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 19:04:51 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 19:19:06 - INFO] - anony: Stopping...
+[08-Oct-26 19:19:07 - INFO] - anony: Bot stopped.
+[08-Oct-26 19:19:07 - INFO] - anony: All assistants stopped.
+[08-Oct-26 19:19:08 - INFO] - anony: Database connection closed.
+[08-Oct-26 19:19:08 - INFO] - anony: Stopped.
+
+[08-Oct-26 19:19:08 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[08-Oct-26 19:19:08 - INFO] - anony: All assistants stopped.
+[08-Oct-26 19:19:08 - INFO] - anony: Stop...
+[08-Oct-26 19:19:59 - INFO] - anony: Cache directories updated.
+[08-Oct-26 19:20:01 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 19:20:10 - INFO] - anony: Database connection successful. (2.94s)
+[08-Oct-26 19:20:11 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 19:20:11 - INFO] - anony: تم تحميل 4 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 19:20:11 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 19:20:11 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 19:20:12 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 19:20:13 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 19:20:14 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 19:20:14 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 19:20:14 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 19:20:14 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 19:20:15 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 19:20:15 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 19:20:15 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 19:20:15 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 19:20:15 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 19:20:15 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 19:20:15 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 19:20:16 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 23:50:40 - INFO] - anony: Cache directories updated.
+[08-Oct-26 23:50:41 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 23:50:43 - INFO] - anony: Database connection successful. (1.30s)
+[08-Oct-26 23:50:44 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 23:50:44 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 23:50:44 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 23:50:44 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 23:50:44 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 23:50:44 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 23:50:45 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 23:50:46 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 23:50:46 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 23:50:46 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 23:50:46 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 23:50:46 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 23:50:46 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 23:50:46 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 23:50:46 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 23:50:46 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 23:50:46 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 23:50:46 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 23:53:23 - INFO] - anony: Cache directories updated.
+[08-Oct-26 23:53:24 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 23:53:25 - INFO] - anony: Database connection successful. (1.21s)
+[08-Oct-26 23:53:26 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 23:53:26 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 23:53:26 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 23:53:26 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 23:53:27 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 23:53:27 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 23:53:28 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 23:53:28 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 23:53:28 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 23:53:28 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 23:53:28 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 23:53:28 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 23:53:28 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 23:53:28 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 23:53:28 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 23:53:28 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 23:53:28 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 23:53:29 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 23:55:52 - INFO] - anony: Stopping...
+[08-Oct-26 23:55:52 - INFO] - anony: Bot stopped.
+[08-Oct-26 23:55:52 - INFO] - anony: All assistants stopped.
+[08-Oct-26 23:55:53 - INFO] - anony: Database connection closed.
+[08-Oct-26 23:55:53 - INFO] - anony: Stopped.
+
+[08-Oct-26 23:55:53 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[08-Oct-26 23:55:53 - INFO] - anony: All assistants stopped.
+[08-Oct-26 23:55:53 - INFO] - anony: Stop...
+[08-Oct-26 23:56:00 - INFO] - anony: Cache directories updated.
+[08-Oct-26 23:56:00 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 23:56:03 - INFO] - anony: Database connection successful. (1.79s)
+[08-Oct-26 23:56:04 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[08-Oct-26 23:56:04 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[08-Oct-26 23:56:04 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[08-Oct-26 23:56:04 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[08-Oct-26 23:56:05 - INFO] - anony: Bot started as @Bi1ieBot
+[08-Oct-26 23:56:05 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[08-Oct-26 23:56:06 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 23:56:06 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[08-Oct-26 23:56:06 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 23:56:06 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[08-Oct-26 23:56:07 - INFO] - anony: Assistant 1 joined @Python2015
+[08-Oct-26 23:56:07 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[08-Oct-26 23:56:07 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[08-Oct-26 23:56:07 - INFO] - anony: Assistant 1 joined @vegaone
+[08-Oct-26 23:56:07 - INFO] - anony: Total assistants booted: 1
+[08-Oct-26 23:56:07 - INFO] - anony: PyTgCalls client(s) started.
+[08-Oct-26 23:56:07 - INFO] - anony: Loaded 31 modules.
+[08-Oct-26 23:56:07 - INFO] - anony: Loaded 1 sudo users.
+[08-Oct-26 23:59:54 - INFO] - anony: Stopping...
+[08-Oct-26 23:59:54 - INFO] - anony: Bot stopped.
+[08-Oct-26 23:59:54 - INFO] - anony: All assistants stopped.
+[08-Oct-26 23:59:54 - INFO] - anony: Database connection closed.
+[08-Oct-26 23:59:54 - INFO] - anony: Stopped.
+
+[08-Oct-26 23:59:54 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[08-Oct-26 23:59:54 - INFO] - anony: All assistants stopped.
+[08-Oct-26 23:59:54 - INFO] - anony: Stop...
+[08-Oct-26 23:59:57 - INFO] - anony: Cache directories updated.
+[08-Oct-26 23:59:58 - INFO] - anony: Loaded languages: ar, en
+[08-Oct-26 23:59:59 - INFO] - anony: Database connection successful. (1.28s)
+[09-Oct-26 00:00:00 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:00:01 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:00:01 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:00:01 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:00:01 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:00:02 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:00:03 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:00:04 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:00:04 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:00:05 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:00:05 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:00:05 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:00:05 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:00:05 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:00:05 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:00:06 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:00:07 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:00:09 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:01:27 - INFO] - anony: Stopping...
+[09-Oct-26 00:01:27 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:01:27 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:01:27 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:01:27 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:01:27 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:01:27 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:01:27 - INFO] - anony: Stop...
+[09-Oct-26 00:01:31 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:01:31 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:01:33 - INFO] - anony: Database connection successful. (1.34s)
+[09-Oct-26 00:01:34 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:01:34 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:01:34 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:01:34 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:01:34 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:01:35 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:01:36 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:01:36 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:01:36 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:01:36 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:01:36 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:01:36 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:01:36 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:01:36 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:01:36 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:01:36 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:01:36 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:01:37 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:07:13 - INFO] - anony: Stopping...
+[09-Oct-26 00:07:13 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:07:13 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:07:13 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:07:13 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:07:13 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:07:13 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:07:13 - INFO] - anony: Stop...
+[09-Oct-26 00:07:16 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:07:17 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:07:19 - INFO] - anony: Database connection successful. (1.36s)
+[09-Oct-26 00:07:19 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:07:20 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:07:20 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:07:20 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:07:21 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:07:21 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:07:22 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:07:22 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:07:22 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:07:22 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:07:22 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:07:22 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:07:22 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:07:22 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:07:22 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:07:22 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:07:22 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:07:23 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:09:24 - INFO] - anony: Stopping...
+[09-Oct-26 00:09:24 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:09:24 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:09:24 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:09:24 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:09:24 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:09:24 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:09:24 - INFO] - anony: Stop...
+[09-Oct-26 00:09:27 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:09:27 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:09:29 - INFO] - anony: Database connection successful. (1.41s)
+[09-Oct-26 00:09:30 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:09:30 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:09:30 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:09:30 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:09:31 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:09:31 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:09:32 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:09:32 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:09:32 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:09:32 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:09:32 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:09:32 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:09:32 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:09:32 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:09:32 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:09:32 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:09:32 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:09:33 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:10:06 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 144, in _controls
+    return await anon.play_media(chat_id, msg, media)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/calls.py", line 91, in play_media
+    keyboard = await buttons.controls(chat_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object InlineKeyboardMarkup can't be used in 'await' expression
+[09-Oct-26 00:13:23 - INFO] - anony: Stopping...
+[09-Oct-26 00:13:24 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:13:24 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:13:24 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:13:24 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:13:24 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:13:24 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:13:24 - INFO] - anony: Stop...
+[09-Oct-26 00:13:26 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:13:26 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:14:33 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:14:33 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:14:34 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:14:34 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:17:51 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:17:52 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:17:56 - INFO] - anony: Database connection successful. (1.80s)
+[09-Oct-26 00:17:57 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:17:57 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:17:57 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:17:57 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:17:58 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:17:58 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:17:59 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:17:59 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:17:59 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:18:00 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:18:00 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:18:00 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:18:00 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:18:00 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:18:00 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:18:01 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:18:02 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:18:03 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:19:45 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:19:46 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:19:48 - INFO] - anony: Database connection successful. (1.30s)
+[09-Oct-26 00:19:48 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:19:49 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:19:49 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:19:49 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:19:49 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:19:49 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:19:51 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:19:51 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:19:51 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:19:51 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:19:51 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:19:51 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:19:51 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:19:51 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:19:51 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:19:51 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:19:51 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:19:51 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:21:52 - INFO] - anony: Stopping...
+[09-Oct-26 00:21:52 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:21:52 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:21:52 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:21:52 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:21:52 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:21:52 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:21:52 - INFO] - anony: Stop...
+[09-Oct-26 00:21:55 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:21:55 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:21:58 - INFO] - anony: Database connection successful. (1.84s)
+[09-Oct-26 00:21:59 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:21:59 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:21:59 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:21:59 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:21:59 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:21:59 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:22:01 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:22:01 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:22:01 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:22:01 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:22:01 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:22:01 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:22:01 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:22:01 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:22:01 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:22:01 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:22:02 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:22:02 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:29:02 - INFO] - anony: Stopping...
+[09-Oct-26 00:29:03 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:29:03 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:29:03 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:29:03 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:29:03 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:29:03 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:29:03 - INFO] - anony: Stop...
+[09-Oct-26 00:29:06 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:29:06 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:29:08 - INFO] - anony: Database connection successful. (1.37s)
+[09-Oct-26 00:29:09 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:29:09 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:29:09 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:29:09 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:29:09 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:29:10 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:29:11 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:29:11 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:29:11 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:29:11 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:29:11 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:29:11 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:29:11 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:29:11 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:29:11 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:29:11 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:29:11 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:29:12 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:29:49 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 153, in _controls
+    return await anon.play_media(chat_id, msg, media)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/calls.py", line 105, in play_media
+    await message.edit_media(
+  File "/usr/local/lib/python3.12/dist-packages/pyrogram/types/messages_and_media/message.py", line 8463, in edit_media
+    return await self._client.edit_message_media(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/pyrogram/methods/messages/edit_message_media.py", line 126, in edit_message_media
+    reply_markup=await reply_markup.write(self) if reply_markup else None,
+                       ^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'write'
+[09-Oct-26 00:30:07 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/message_handler.py", line 95, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/stop.py", line 52, in _stop
+    reply_markup=buttons.close_markup(m.lang)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/inline.py", line 74, in close_markup
+    [[self.ikb(text=_["close"], callback_data="close", style=ButtonStyle.DANGER)]]
+                                                             ^^^^^^^^^^^
+NameError: name 'ButtonStyle' is not defined
+[09-Oct-26 00:31:58 - INFO] - anony: Stopping...
+[09-Oct-26 00:31:58 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:31:58 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:31:58 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:31:58 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:31:58 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:31:58 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:31:58 - INFO] - anony: Stop...
+[09-Oct-26 00:32:01 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:32:01 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:32:03 - INFO] - anony: Database connection successful. (1.57s)
+[09-Oct-26 00:32:04 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:32:04 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:32:05 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:32:05 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:32:05 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:32:05 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:32:06 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:32:06 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:32:06 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:32:06 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:32:06 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:32:06 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:32:07 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:32:07 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:32:07 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:32:07 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:32:07 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:32:07 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:33:26 - INFO] - anony: Stopping...
+[09-Oct-26 00:33:26 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:33:26 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:33:26 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:33:26 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:33:26 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:33:26 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:33:26 - INFO] - anony: Stop...
+[09-Oct-26 00:33:29 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:33:29 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:33:31 - INFO] - anony: Database connection successful. (1.23s)
+[09-Oct-26 00:33:32 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:33:32 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:33:32 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:33:32 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:33:32 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:33:33 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:33:34 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:33:34 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:33:34 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:33:34 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:33:34 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:33:34 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:33:34 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:33:34 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:33:34 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:33:35 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:33:35 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:33:35 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:35:41 - INFO] - anony: Stopping...
+[09-Oct-26 00:35:41 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:35:41 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:35:41 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:35:41 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:35:41 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:35:41 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:35:41 - INFO] - anony: Stop...
+[09-Oct-26 00:35:44 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:35:44 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:35:46 - INFO] - anony: Database connection successful. (1.38s)
+[09-Oct-26 00:35:47 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:35:47 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:35:47 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:35:47 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:35:48 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:35:48 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:35:49 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:35:49 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:35:49 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:35:49 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:35:49 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:35:49 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:35:49 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:35:49 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:35:49 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:35:50 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:35:50 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:35:50 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:36:32 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 28, in _controls
+    action, chat_id = args[1], int(args[2])
+                                   ~~~~^^^
+IndexError: list index out of range
+[09-Oct-26 00:39:48 - INFO] - anony: Stopping...
+[09-Oct-26 00:39:48 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:39:48 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:39:48 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:39:48 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:39:48 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:39:48 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:39:48 - INFO] - anony: Stop...
+[09-Oct-26 00:39:53 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:39:54 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:39:55 - INFO] - anony: Database connection successful. (1.24s)
+[09-Oct-26 00:39:56 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:39:56 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:39:56 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:39:56 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:39:57 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:39:57 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:39:58 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:39:58 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:39:59 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:39:59 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:39:59 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:39:59 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:39:59 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:39:59 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:39:59 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:39:59 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:39:59 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:39:59 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:40:22 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 130, in _controls
+    return await _seek_helper(_, query, chat_id, +10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 28, in _seek_helper
+    start = queue.get_start_time(chat_id) or time.time()
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Queue' object has no attribute 'get_start_time'
+[09-Oct-26 00:40:26 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 130, in _controls
+    return await _seek_helper(_, query, chat_id, +10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 28, in _seek_helper
+    start = queue.get_start_time(chat_id) or time.time()
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Queue' object has no attribute 'get_start_time'
+[09-Oct-26 00:40:27 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 130, in _controls
+    return await _seek_helper(_, query, chat_id, +10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 28, in _seek_helper
+    start = queue.get_start_time(chat_id) or time.time()
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Queue' object has no attribute 'get_start_time'
+[09-Oct-26 00:40:29 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 134, in _controls
+    return await _seek_helper(_, query, chat_id, -10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 28, in _seek_helper
+    start = queue.get_start_time(chat_id) or time.time()
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Queue' object has no attribute 'get_start_time'
+[09-Oct-26 00:40:31 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 130, in _controls
+    return await _seek_helper(_, query, chat_id, +10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 28, in _seek_helper
+    start = queue.get_start_time(chat_id) or time.time()
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Queue' object has no attribute 'get_start_time'
+[09-Oct-26 00:40:31 - ERROR] - pyrogram.dispatcher: Unexpected exception raised in CallbackQueryHandler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/dispatcher.py", line 118, in dispatch_update_packet
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.12/dist-packages/kurimod/listen/callback_query_handler.py", line 143, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/root/KIMA/Maked/Bi1ieBot/anony/core/lang.py", line 71, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 151, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/helpers/admins.py", line 69, in wrapper
+    return await func(_, update, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 130, in _controls
+    return await _seek_helper(_, query, chat_id, +10)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/KIMA/Maked/Bi1ieBot/anony/plugins/callbacks.py", line 28, in _seek_helper
+    start = queue.get_start_time(chat_id) or time.time()
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Queue' object has no attribute 'get_start_time'
+[09-Oct-26 00:41:26 - INFO] - anony: Stopping...
+[09-Oct-26 00:41:26 - INFO] - anony: Bot stopped.
+[09-Oct-26 00:41:26 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:41:26 - INFO] - anony: Database connection closed.
+[09-Oct-26 00:41:26 - INFO] - anony: Stopped.
+
+[09-Oct-26 00:41:26 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 00:41:26 - INFO] - anony: All assistants stopped.
+[09-Oct-26 00:41:26 - INFO] - anony: Stop...
+[09-Oct-26 00:41:30 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:41:31 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:41:33 - INFO] - anony: Database connection successful. (1.37s)
+[09-Oct-26 00:41:34 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:41:34 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:41:34 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:41:34 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:41:34 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:41:34 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:41:35 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:41:35 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:41:35 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:41:35 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:41:35 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:41:35 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:41:36 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:41:36 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:41:36 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:41:36 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:41:36 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:41:36 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 00:44:47 - INFO] - anony: Cache directories updated.
+[09-Oct-26 00:44:47 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 00:44:49 - INFO] - anony: Database connection successful. (1.17s)
+[09-Oct-26 00:44:49 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 00:44:50 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 00:44:50 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 00:44:50 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 00:44:50 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 00:44:50 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 00:44:51 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:44:52 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 00:44:52 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:44:52 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 00:44:52 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 00:44:52 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 00:44:52 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 00:44:52 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 00:44:52 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 00:44:52 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 00:44:53 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 00:44:53 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:02:22 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:02:22 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:02:26 - INFO] - anony: Database connection successful. (1.43s)
+[09-Oct-26 08:02:27 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:02:27 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:02:27 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:02:27 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:02:27 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:02:27 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:02:29 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:02:29 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:02:29 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:02:29 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:02:29 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:02:29 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:02:29 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:02:29 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:02:29 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:02:29 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:02:29 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:02:29 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:03:37 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:03:37 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:03:39 - INFO] - anony: Database connection successful. (1.28s)
+[09-Oct-26 08:03:40 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:03:40 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:03:40 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:03:40 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:03:40 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:03:40 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:03:41 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:03:41 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:03:41 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:03:41 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:03:42 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:03:42 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:03:42 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:03:42 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:03:42 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:03:42 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:03:42 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:03:42 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:06:32 - INFO] - anony: Stopping...
+[09-Oct-26 08:06:32 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:06:32 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:06:32 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:06:32 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:06:32 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:06:32 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:06:32 - INFO] - anony: Stop...
+[09-Oct-26 08:06:35 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:06:35 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:06:37 - INFO] - anony: Database connection successful. (1.28s)
+[09-Oct-26 08:06:38 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:06:38 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:06:38 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:06:38 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:06:38 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:06:39 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:06:40 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:06:40 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:06:40 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:06:40 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:06:40 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:06:40 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:06:40 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:06:40 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:06:40 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:06:40 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:06:40 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:06:40 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:08:54 - INFO] - anony: Stopping...
+[09-Oct-26 08:08:54 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:08:54 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:08:54 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:08:54 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:08:54 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:08:54 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:08:54 - INFO] - anony: Stop...
+[09-Oct-26 08:08:57 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:08:57 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:08:59 - INFO] - anony: Database connection successful. (1.26s)
+[09-Oct-26 08:09:00 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:09:00 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:09:00 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:09:00 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:09:01 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:09:01 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:09:02 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:09:02 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:09:02 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:09:02 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:09:03 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:09:03 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:09:03 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:09:03 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:09:03 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:09:03 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:09:03 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:09:04 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:13:41 - INFO] - anony: Stopping...
+[09-Oct-26 08:13:41 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:13:41 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:13:42 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:13:42 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:13:42 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:13:42 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:13:42 - INFO] - anony: Stop...
+[09-Oct-26 08:16:42 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:16:42 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:16:44 - INFO] - anony: Database connection successful. (1.24s)
+[09-Oct-26 08:16:45 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:16:45 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:16:45 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:16:45 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:16:45 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:16:46 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:16:47 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:16:47 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:16:47 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:16:47 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:16:47 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:16:47 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:16:47 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:16:47 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:16:47 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:16:47 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:16:47 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:16:47 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:25:00 - INFO] - anony: Stopping...
+[09-Oct-26 08:25:00 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:25:00 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:25:00 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:25:00 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:25:00 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:25:00 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:25:00 - INFO] - anony: Stop...
+[09-Oct-26 08:25:12 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:25:13 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:25:16 - INFO] - anony: Database connection successful. (1.46s)
+[09-Oct-26 08:25:17 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:25:17 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:25:17 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:25:17 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:25:18 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:25:18 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:25:19 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:25:19 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:25:19 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:25:19 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:25:19 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:25:19 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:25:19 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:25:19 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:25:19 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:25:20 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:25:20 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:25:20 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:25:37 - INFO] - anony: تم حذف تخصيصات السورس للبوت 7291861004 بنجاح
+[09-Oct-26 08:31:15 - INFO] - anony: Stopping...
+[09-Oct-26 08:31:15 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:31:15 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:31:15 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:31:15 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:31:15 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:31:15 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:31:15 - INFO] - anony: Stop...
+[09-Oct-26 08:31:19 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:31:19 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:31:21 - INFO] - anony: Database connection successful. (1.23s)
+[09-Oct-26 08:31:22 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:31:22 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:31:22 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:31:22 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:31:22 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:31:22 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:31:23 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:31:24 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:31:24 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:31:24 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:31:24 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:31:24 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:31:24 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:31:24 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:31:24 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:31:24 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:31:24 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:31:24 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:34:24 - INFO] - anony: Stopping...
+[09-Oct-26 08:34:24 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:34:24 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:34:24 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:34:24 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:34:24 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:34:24 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:34:24 - INFO] - anony: Stop...
+[09-Oct-26 08:34:27 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:34:27 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:34:29 - INFO] - anony: Database connection successful. (1.26s)
+[09-Oct-26 08:34:30 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:34:30 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:34:30 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:34:30 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:34:30 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:34:31 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:34:32 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:34:32 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:34:32 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:34:32 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:34:32 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:34:32 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:34:32 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:34:32 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:34:32 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:34:32 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:34:33 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:34:33 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:40:27 - INFO] - anony: Stopping...
+[09-Oct-26 08:40:27 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:40:27 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:40:27 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:40:27 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:40:27 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:40:27 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:40:27 - INFO] - anony: Stop...
+[09-Oct-26 08:40:31 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:40:31 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:40:33 - INFO] - anony: Database connection successful. (1.31s)
+[09-Oct-26 08:40:34 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:40:34 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:40:34 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:40:34 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:40:34 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:40:35 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:40:36 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:40:36 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:40:36 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:40:36 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:40:36 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:40:36 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:40:36 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:40:36 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:40:36 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:40:36 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:40:36 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:40:37 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:41:53 - INFO] - anony: Stopping...
+[09-Oct-26 08:41:53 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:41:53 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:41:53 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:41:53 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:41:53 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:41:53 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:41:53 - INFO] - anony: Stop...
+[09-Oct-26 08:41:56 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:41:56 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:41:58 - INFO] - anony: Database connection successful. (1.30s)
+[09-Oct-26 08:41:59 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:41:59 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:41:59 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:41:59 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:41:59 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:41:59 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:42:01 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:42:01 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:42:01 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:42:01 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:42:01 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:42:01 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:42:01 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:42:01 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:42:01 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:42:02 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:42:02 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:42:03 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:44:30 - INFO] - anony: Stopping...
+[09-Oct-26 08:44:30 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:44:30 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:44:31 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:44:31 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:44:31 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:44:31 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:44:31 - INFO] - anony: Stop...
+[09-Oct-26 08:44:34 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:44:35 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:44:36 - INFO] - anony: Database connection successful. (1.28s)
+[09-Oct-26 08:44:37 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:44:37 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:44:37 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:44:37 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:44:38 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:44:38 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:44:39 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:44:39 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:44:39 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:44:39 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:44:39 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:44:39 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:44:39 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:44:39 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:44:39 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:44:39 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:44:39 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:44:40 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:48:18 - INFO] - anony: Stopping...
+[09-Oct-26 08:48:19 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:48:19 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:48:19 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:48:19 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:48:19 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:48:19 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:48:19 - INFO] - anony: Stop...
+[09-Oct-26 08:48:22 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:48:22 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:48:24 - INFO] - anony: Database connection successful. (1.25s)
+[09-Oct-26 08:48:25 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:48:25 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:48:25 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:48:25 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:48:25 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:48:26 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:48:27 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:48:27 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:48:27 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:48:27 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:48:27 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:48:27 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:48:27 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:48:27 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:48:27 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:48:27 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:48:27 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:48:28 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:50:23 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:50:23 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:50:26 - INFO] - anony: Database connection successful. (1.62s)
+[09-Oct-26 08:50:27 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:50:27 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:50:27 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:50:27 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:50:27 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:50:28 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:50:29 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:50:29 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:50:29 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:50:29 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:50:29 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:50:29 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:50:29 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:50:29 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:50:29 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:50:29 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:50:29 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:50:29 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 08:51:43 - INFO] - anony: Stopping...
+[09-Oct-26 08:51:43 - INFO] - anony: Bot stopped.
+[09-Oct-26 08:51:43 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:51:43 - INFO] - anony: Database connection closed.
+[09-Oct-26 08:51:43 - INFO] - anony: Stopped.
+
+[09-Oct-26 08:51:43 - ERROR] - anony: Error stopping assistant: Client is already terminated
+[09-Oct-26 08:51:43 - INFO] - anony: All assistants stopped.
+[09-Oct-26 08:51:43 - INFO] - anony: Stop...
+[09-Oct-26 08:51:46 - INFO] - anony: Cache directories updated.
+[09-Oct-26 08:51:46 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 08:51:48 - INFO] - anony: Database connection successful. (1.30s)
+[09-Oct-26 08:51:49 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 08:51:49 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 08:51:49 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 08:51:49 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 08:51:49 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 08:51:50 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 08:51:51 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:51:51 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 08:51:51 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:51:51 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 08:51:51 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 08:51:51 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 08:51:51 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 08:51:51 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 08:51:51 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 08:51:51 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 08:51:51 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 08:51:51 - INFO] - anony: Loaded 1 sudo users.
+[09-Oct-26 09:46:06 - INFO] - anony: Cache directories updated.
+[09-Oct-26 09:46:07 - INFO] - anony: Loaded languages: ar, en
+[09-Oct-26 09:46:11 - INFO] - anony: Database connection successful. (1.96s)
+[09-Oct-26 09:46:12 - INFO] - anony: تم تحميل 0 مستخدم محظور إلى الذاكرة المؤقتة
+[09-Oct-26 09:46:12 - INFO] - anony: تم تحميل 5 عضو من رتبة S إلى الذاكرة المؤقتة
+[09-Oct-26 09:46:12 - INFO] - anony: تم تحميل كاش المكتمين بنجاح
+[09-Oct-26 09:46:12 - INFO] - anony: تم تحميل ذاكرة التخزين بنجاح
+[09-Oct-26 09:46:13 - INFO] - anony: Bot started as @Bi1ieBot
+[09-Oct-26 09:46:13 - INFO] - anony: Assistant 1 started as @Ban8kk (ID: 8245153044)
+[09-Oct-26 09:46:14 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 09:46:14 - INFO] - anony: Assistant 1 joined @CyberCodeing
+[09-Oct-26 09:46:14 - ERROR] - anony: Assistant 1 failed to join @BetagramNinja: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 09:46:15 - ERROR] - anony: Assistant 1 failed to join @Cybervega: Telegram says: [400 USERNAME_NOT_OCCUPIED] - The provided username is not occupied by anyone. (caused by "contacts.ResolveUsername")
+[09-Oct-26 09:46:15 - INFO] - anony: Assistant 1 joined @Python2015
+[09-Oct-26 09:46:15 - ERROR] - anony: Assistant 1 failed to join @: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it. 
+[09-Oct-26 09:46:15 - INFO] - anony: Assistant 1 sent /start to @Bi1ieBot
+[09-Oct-26 09:46:15 - INFO] - anony: Assistant 1 joined @vegaone
+[09-Oct-26 09:46:15 - INFO] - anony: Total assistants booted: 1
+[09-Oct-26 09:46:15 - INFO] - anony: PyTgCalls client(s) started.
+[09-Oct-26 09:46:15 - INFO] - anony: Loaded 31 modules.
+[09-Oct-26 09:46:15 - INFO] - anony: Loaded 1 sudo users.
